@@ -1,0 +1,88 @@
+.mainContainer {
+    width: 1440px;
+    height: 900px;
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.signInContainer {
+    padding-left: 80px;
+    padding-top: 30px;
+    height: 860px;
+    position: relative;
+}
+
+
+.signInTitle {
+    margin-top: 112px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+}
+
+.signUpText {
+    margin-top: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.signUpText a {
+    font-family: 'Montserrat', sans-serif;
+    color: #065BEA;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+.signUpText a:hover {
+    color: #0A4AB6;
+}
+
+@media screen and (max-width: 450px) {
+
+    .mainContainer {
+        display: block;
+        width: 375px;
+        height: 100%;
+        padding: 10px;
+        background-image: url("./images/bg.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color: #065BEA;
+    }
+
+    .signInContainer {
+        padding-left: 0;
+        padding-top: 15px;
+        height: 800px;
+        position: relative;
+    }
+
+    .signInTitle {
+        margin-top: 60px;
+        text-align: center;
+        font-size: 25px;
+        color: #ffffff;
+    }
+
+    .signUpText {
+        color: white;
+        margin-left: 50px;
+        font-size: 13px;
+    }
+
+    .signUpText a {
+        color: black;
+        font-size: 12px;
+    }
+
+    .signUpText a:hover {
+        color: white;
+    }
+}
+
+
+

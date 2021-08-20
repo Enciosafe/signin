@@ -1,0 +1,23 @@
+.container {
+    width: 800px;
+    height: 860px;
+    border-radius: 15px;
+
+    background-image: url("../../images/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #065BEA;
+}
+
+.slider {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        width: 375px;
+
+    }
+}
