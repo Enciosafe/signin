@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Enciosafe/signin/static/css/main.90cf8989.chunk.css",
+    "main.js": "/Enciosafe/signin/static/js/main.f9520a65.chunk.js",
+    "main.js.map": "/Enciosafe/signin/static/js/main.f9520a65.chunk.js.map",
+    "runtime-main.js": "/Enciosafe/signin/static/js/runtime-main.87f4eba7.js",
+    "runtime-main.js.map": "/Enciosafe/signin/static/js/runtime-main.87f4eba7.js.map",
+    "static/js/2.64fc2b03.chunk.js": "/Enciosafe/signin/static/js/2.64fc2b03.chunk.js",
+    "static/js/2.64fc2b03.chunk.js.map": "/Enciosafe/signin/static/js/2.64fc2b03.chunk.js.map",
+    "index.html": "/Enciosafe/signin/index.html",
+    "static/css/main.90cf8989.chunk.css.map": "/Enciosafe/signin/static/css/main.90cf8989.chunk.css.map",
+    "static/js/2.64fc2b03.chunk.js.LICENSE.txt": "/Enciosafe/signin/static/js/2.64fc2b03.chunk.js.LICENSE.txt",
+    "static/media/Hero.module.css": "/Enciosafe/signin/static/media/bg.ea220e2f.png",
+    "static/media/first.8ac161b0.png": "/Enciosafe/signin/static/media/first.8ac161b0.png",
+    "static/media/second.24af416f.png": "/Enciosafe/signin/static/media/second.24af416f.png",
+    "static/media/third.d9f24da3.png": "/Enciosafe/signin/static/media/third.d9f24da3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87f4eba7.js",
+    "static/js/2.64fc2b03.chunk.js",
+    "static/css/main.90cf8989.chunk.css",
+    "static/js/main.f9520a65.chunk.js"
+  ]
+}
