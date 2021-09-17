@@ -6,7 +6,7 @@
 .labelTitle {
     display: block;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 450;
     margin-bottom: 14px;
     line-height: 24px;
 }
@@ -18,11 +18,22 @@ Form {
 .inputData {
     width: 420px;
     height: 54px;
-    border: 1px solid #065BEA;
+    border: 1px solid #E0E5E9;
     border-radius: 8px;
     padding-left: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+}
+
+.inputData:active {
+    border-color: red;
+}
+
+.inputData::placeholder {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-left: 215px;
 }
 
 
@@ -90,7 +101,7 @@ Form {
     margin-bottom: 30px;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
     line-height: 24px;
     color: #75777A;

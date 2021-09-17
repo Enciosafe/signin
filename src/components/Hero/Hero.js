@@ -1,10 +1,9 @@
 import React from 'react';
 import s from './Hero.module.css'
-import SimpleImageSlider from "react-simple-image-slider";
-
 import firstSlide from '../../images/slides/first.png'
 import secondSlide from '../../images/slides/second.png'
 import thirdSlide from '../../images/slides/third.png'
+import Slider from "../Slider/Slider";
 
 const images = [
     { url: [firstSlide] },
@@ -13,23 +12,11 @@ const images = [
 ];
 
 
-let widerScreenWidth = window.matchMedia("(max-width: 450px)");
-
 
 const Hero = () => {
-    return (
-        <div className={s.container}>
-            <div className={s.slider}>
-                {!widerScreenWidth.matches && <SimpleImageSlider
-                    width={800}
-                    height={860}
-                    images={images}
-                    showNavs={true}
-                    showBullets={true}
-                /> }
-            </div>
-        </div>
-    );
+    return <div className={s.container}>
+        <Slider/>
+    </div>
 };
 
 export default Hero;
